@@ -2,6 +2,7 @@ public static void findLargestandSmallestElementBySort(int[] a) {
         System.out.println("findLargestandSmallestElementBySort()");
         int min = a[0];
         int max = a[0];
+        //Hey you are dumb
         for (int j : a) {
             if (j > max) {
                 max = j;
