@@ -1,24 +1,3 @@
-public static void secondLargestElement(int[] a) {
-        System.out.println("secondLargestElement()");
-        sortArrayByManuallyDESCUsingXOR(a);
-        int second  = a[1];
-        int third  = a[2];
-        System.out.println("Second Largest Element: "+second+ " And Third Largest Element: " + third);
-
-
-    }
-
-    public static void evenNumber(int n) {
-        int c = 0;
-        while (c >= n) {
-            if (n % 2 == 0) {
-                System.out.print(c + " ");
-            }
-            c++;
-        }
-    }
-
-
 public static void findLargestandSmallestElementBySort(int[] a) {
         System.out.println("findLargestandSmallestElementBySort()");
         int min = a[0];
@@ -39,16 +18,7 @@ public class ArrayConcept {
 	public static void main(String[] args) {
 		
 		
-		//array: to store similar data type values in a array variable
-
-		//1. int array
-		// lowest bound/index  =0
-		// upper bound/index = n-1
-		// one dim array
-		
-		//dis-advantages of array
-		//1. size is fixed --static array == to overcome of this problem -- we use collections -- ArrayList , HashTable -- use dynamic array
-		//2. stares only similar data types -- to overcome of this problem , we use object array
+	// bla bla 
 		
 		
 		int i[] = new int[4];
@@ -70,34 +40,15 @@ public class ArrayConcept {
 		//2. double array
 		double d[] = new double[3];
 		d[0] = 12.33;
-		d[1] = 13.33;
-		d[2] = 45.33;
-		
-		System.out.println(d[2]);
-		
-		//3. char array
-		char c[] = new char[3];
-		c[0] = 'a';
-		c[1] = 2;
-		c[2] = '$';
-		
-		//4. boolean array
-		boolean b[] = new boolean[2];
-		b[0] = true;
-		b[1] = false;
-		
-		//5. String Array
-		String s[] = new String[3];
-		s[0] = "test";
-		s[1] = "Hello";
-		s[2] = "world";
-		
-		System.out.println(s.length);
-		System.out.println(s[1]);
-		
-		//6. object Array :(Object is class) --- is used diffrent data type value
-		Object ob[] = new Object[6];
-		ob[0] = "tom";
+		// d  public static void evenNumber(int n) {
+        int c = 0;
+        while (c >= n) {
+            if (n % 2 == 0) {
+                System.out.print(c + " ");
+            }
+            c++;
+        }
+    }
 		ob[2] = 25;
 		ob[3] = 12.11;
 		ob[4] = "1/1/1990";
@@ -109,6 +60,4 @@ public class ArrayConcept {
 	} 
 
 }
-        
-      //  System.out.println("Max: " + max + " Min: " + min);
-    }
+// all is okay  take this Piggy queen 
