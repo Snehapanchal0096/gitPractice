@@ -1,0 +1,14 @@
+public static void findLargestandSmallestElementBySort(int[] a) {
+        System.out.println("findLargestandSmallestElementBySort()");
+        int min = a[0];
+        int max = a[0];
+        for (int j : a) {
+            if (j > max) {
+                max = j;
+            }
+            if (j < min) {
+                min = j;
+            }
+        }
+        System.out.println("Max: " + max + " Min: " + min);
+    }
