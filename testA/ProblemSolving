@@ -1,38 +1,18 @@
 public static void secondLargestElement(int[] a) {
-        System.out.println("secondLargestElement()");
-        sortArrayByManuallyDESCUsingXOR(a);
-        int second  = a[1];
-        int third  = a[2];
-        System.out.println("Second Largest Element: "+second+ " And Third Largest Element: " + third);
+        int a = 10;
+		int b = 20;
+		
+		if(b>a) {
+			System.out.println("b is greater than a");
+		}else {
+			System.out.println("a is greater then b");
+		}
 
 
     }
 
-    public static void evenNumber(int n) {
-        int c = 0;
-        while (c >= n) {
-            if (n % 2 == 0) {
-                System.out.print(c + " ");
-            }
-            c++;
-        }
-    }
+    
 
-
-public static void findLargestandSmallestElementBySort(int[] a) {
-        System.out.println("findLargestandSmallestElementBySort()");
-        int min = a[0];
-        int max = a[0];
-        //Hey you are dumb
-        for (int j : a) {
-            if (j > max) {
-                max = j;
-            }
-            if (j < min) {
-                min = j;
-            }
-        }
-        package basicPrograms;
 
 public class ArrayConcept {
 
@@ -85,26 +65,7 @@ public class ArrayConcept {
 		boolean b[] = new boolean[2];
 		b[0] = true;
 		b[1] = false;
-		
-		//5. String Array
-		String s[] = new String[3];
-		s[0] = "test";
-		s[1] = "Hello";
-		s[2] = "world";
-		
-		System.out.println(s.length);
-		System.out.println(s[1]);
-		
-		//6. object Array :(Object is class) --- is used diffrent data type value
-		Object ob[] = new Object[6];
-		ob[0] = "tom";
-		ob[2] = 25;
-		ob[3] = 12.11;
-		ob[4] = "1/1/1990";
-		ob[5] = 'm';
-		ob[1] = "London";
-		System.out.println(ob[1]);
-		
+	
 		
 	} 
 
